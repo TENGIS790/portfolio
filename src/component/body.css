@@ -1,0 +1,76 @@
+.bg{
+    background-image: url('.//zurag.png');
+    height:1000px;
+    width:2000px;
+    background-size: cover;
+  }
+  .text{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: aquamarine;
+  }
+.btn{
+  background-color: #adb5bd;
+  border-radius: 15;
+  height: 50px;
+  width: 120px;
+}
+.text2{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+  color: grey;
+}
+.btn2{
+  background-color: #adb5bd;
+  border-radius: 10;
+  height: 50px;
+  width: 120px;
+}
+.text3{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.a{
+  font-size: 36px;
+}
+.asd{
+  padding-left: 370px;
+  padding-top: 200px;
+}
+.fb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100 0px;
+  padding-left: 1710px;
+  padding-top: 10px;
+}
+.msg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 125 0px;
+  padding-left: 1710px;
+  padding-top: 10px;
+}
+.inst{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150 0px;
+  padding-left: 1710px;
+  padding-top: 10px;
+}
+.yt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 175 0px;
+  padding-left: 1710px;
+  padding-top:10px;
+}
