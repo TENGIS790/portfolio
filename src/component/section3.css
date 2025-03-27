@@ -1,0 +1,49 @@
+.a{
+    background-image: url(".//zurag.png");
+    height: 1100px;
+    width: 2000px;
+    background-size: cover;
+  }
+  .border {
+    border: 3px solid;
+    height: 600px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 200px;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    align-items: center;
+    margin-top: 200px;
+  }
+  .border2 {
+    border: 3px solid;
+    height: 600px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 200px;
+  }
+  .border3 {
+    border: 3px solid;
+    height: 600px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 200px;
+  }
+  .id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .a {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
