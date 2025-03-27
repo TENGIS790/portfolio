@@ -53,3 +53,18 @@
     top: 45%;
     left: 5%;
 }
+.bg{
+    background-image: url('.//bg3.jpeg');
+    height:100vb;
+    width:100vh;
+    background-size: cover;
+  }
+  .b{
+    background-image: url('.//bg3.jpeg');
+    height:1000px;
+    width:2000px; 
+    background-size: cover;
+  }
+html{
+    scroll-behavior: smooth;
+}

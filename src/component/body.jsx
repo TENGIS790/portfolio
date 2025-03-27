@@ -5,11 +5,13 @@ import { FaFacebook } from "react-icons/fa";
 import { FaFacebookMessenger } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import Header from './header';
 
 function Body(){
     return(
         <>
             <div className='bg'>
+            <Header/>
                 <h1 className='text'>Welcome to my website</h1>
                 <div>
                     <button className='btn'>Send Message</button>

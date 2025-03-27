@@ -1,0 +1,36 @@
+.b{
+    background-image: url('.//bg3.jpeg');
+    height:1000px;
+    width:2000px; 
+    background-size: cover;
+  }
+  .border{
+    border: 3px solid;
+    height: 600px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  .text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+  }
+  .border2{
+    border: 3px solid;
+    height: 600px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  .border3{
+    border: 3px solid;
+    height: 600px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  .id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

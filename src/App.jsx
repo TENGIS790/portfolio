@@ -1,14 +1,14 @@
 import './App.css'
-import Header from './component/header'
+
 import Body from './component/body'
+import About from './component/section2'
 
 function App() {
 
   return (
-    <>
-      
-        <Header/>
+    <>  
         <Body/>
+        <About/>
       
     </>
   )

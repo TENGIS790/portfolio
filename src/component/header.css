@@ -7,7 +7,7 @@
 }
 .nav{
   position: relative;
-  width: 475px;
+  width: 490px;
   height: 50px;
   background: #222;
   border-radius: 10px;
@@ -16,7 +16,7 @@
   align-items: center;
 }
 .nav a{
-  position: relative;     a 
+  position: relative; 
   display: inline-block;
   font-size: 1em;
   font-weight: 500;
@@ -39,14 +39,14 @@
   left: 0px;
 }
 .nav a:nth-child(2):hover~span{
-  left: 90px;
+  left: 85px;
 }
 .nav a:nth-child(3):hover~span{
-  left: 180px;
+  left: 190px;
 }
 .nav a:nth-child(4):hover~span{
-  left: 275px;
+  left: 300px;
 }
 .nav a:nth-child(5):hover~span{
-  left: 360px;
+  left: 395px;
 }
