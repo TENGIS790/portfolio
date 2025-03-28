@@ -1,19 +1,95 @@
 .c {
     background-image: url(".//bg5.jpeg");
-    height: 100vh;
+    height: 1200px;
     width: 2000px;
     background-size: cover;
+    position: relative;
   }
   .lebron{
-    margin-top: 250px;
-    margin-left: 200px;
-    height: 200px;
-    width: 400px;
-    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    top: 550px;
+    left: 90px;
+    position: absolute;
   }
   .nike{
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    top: 150px;
+    right: 150px;
+    position: absolute;
+  }
+  .crowd{
     height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    top: 90px;
+    left: 40px;
+    position: absolute;
+  }
+  .curry{
+    height: 400px;
+    width: 220px;
+    border-radius: 20px;
+    top: 550px;
+    right: 190px;
+    position: absolute;
+  }
+  .ja{
+    height: 400px;
+    width: 220px;
+    border-radius: 15px;
+    top: 600px;
+    left: 450px;
+    position: absolute;
+  }
+  .westbrook{
+    height: 360px;
+    width: 220px;
+    border-radius: 30px;
+    top: 50px;
+    left: 390px;
+    position: absolute;
+  }
+  .morant{
+    height: 300px;
+    width: 260px;
+    border-radius: 20px;
+    top: 350px;
+    left: 250px;
+    position: absolute;
+  }
+  .kobe{
+    height: 360px;
+    width: 250px;
+    border-radius: 10px;
+    top: 650px;
+    right: 350px;
+    position: absolute;
+  }
+  .shai{
+    height: 250px;
     width: 200px;
     border-radius: 10px;
-    margin-top: 400px;
+    top: 420px;
+    right: 300px;
+    position: absolute;
+  }
+  .kobe2{
+    height: 250px;
+    width: 200px;
+    border-radius: 30px;
+    top: 820px;
+    left: 280px;
+    position: absolute;
+  }
+  .kobe3{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    top: 60px;
+    right: 320px;
+    position: absolute;
   }
