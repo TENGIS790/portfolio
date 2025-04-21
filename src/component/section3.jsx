@@ -1,29 +1,34 @@
+// src/components/Performance.js
 import React from "react";
-import "./section3.css";
-function Performance() {
+import "../styles/Performance.css";
+import zurag from "../assets/zurag.png"; // ensure image is in assets folder
+
+const Performance = () => {
+  const items = [
+    "Fast rendering and efficient performance using modern React techniques.",
+    "Optimized components with reusable code and minimal re-renders.",
+    "Responsive design and accessibility-first layout for all users.",
+  ];
+
   return (
-    <>
-      <section id="Performance">
-        <div className="a">
-        
-                <div className='border'>
-                 <h1 className='text1'>
-                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, alias, 
-                 saepe ut facilis voluptatibus cumque, enim dignissimos unde dicta deleniti reprehenderit facere voluptates fuga autem? Perspiciatis quibusdam ab fugiat placeat.
-                 </h1>
-                </div> <div className='border2'>
-                 <h1 className='text1'>
-                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, alias, saepe ut facilis voluptatibus cumque, enim dignissimos unde dicta deleniti reprehenderit facere voluptates fuga autem? Perspiciatis quibusdam ab fugiat placeat.
-                 </h1>
-                </div>
-                <div className='border3'>
-                 <h1 className='text1'>
-                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, alias, saepe ut facilis voluptatibus cumque, enim dignissimos unde dicta deleniti reprehenderit facere voluptates fuga autem? Perspiciatis quibusdam ab fugiat placeat.
-                 </h1>
-                </div> 
+    <section
+      className="performance-section"
+      style={{ backgroundImage: `url(${zurag})` }}
+    >
+      <div className="performance-content">
+        <h1 className="performance-title">Performance</h1>
+        <div className="card-container">
+          {items.map((text, index) => (
+            <div key={index} className="glass-card">
+              <p className="card-text">{text}</p>
+            </div>
+          ))}
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
-}
+};
+
 export default Performance;
+
+

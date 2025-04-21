@@ -1,49 +1,73 @@
-.a{
-    background-image: url(".//zurag.png");
-    height: 1100px;
-    width: 2000px;
-    background-size: cover;
+/* src/styles/Performance.css */
+
+.performance-section {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.performance-content {
+  max-width: 1400px;
+  width: 100%;
+  text-align: center;
+}
+
+.performance-title {
+  font-size: 64px;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 60px;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Flex layout for cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Glassmorphism card */
+.glass-card {
+  width: 320px;
+  min-height: 300px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 40px rgba(255, 255, 255, 0.25);
+}
+
+.card-text {
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .performance-title {
+    font-size: 42px;
   }
-  .border {
-    border: 3px solid;
-    height: 600px;
-    width: 300px;
-    border-radius: 10px;
-    margin-top: 200px;
-    align-items: center;
-    text-align: center;
-    
+
+  .glass-card {
+    width: 90%;
   }
-  .text1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    align-items: center;
-    margin-top: 200px;
-  }
-  .border2 {
-    border: 3px solid;
-    height: 600px;
-    width: 300px;
-    border-radius: 10px;
-    margin-top: 200px;
-  }
-  .border3 {
-    border: 3px solid;
-    height: 600px;
-    width: 300px;
-    border-radius: 10px;
-    margin-top: 200px;
-  }
-  .id {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .a {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
+}
