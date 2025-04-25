@@ -1,34 +1,35 @@
-// src/components/Performance.js
 import React from "react";
-import "../styles/Performance.css";
-import zurag from "../assets/zurag.png"; // ensure image is in assets folder
+import "./section3.css";
 
-const Performance = () => {
-  const items = [
-    "Fast rendering and efficient performance using modern React techniques.",
-    "Optimized components with reusable code and minimal re-renders.",
-    "Responsive design and accessibility-first layout for all users.",
-  ];
-
+function Performance() {
   return (
-    <section
-      className="performance-section"
-      style={{ backgroundImage: `url(${zurag})` }}
-    >
-      <div className="performance-content">
-        <h1 className="performance-title">Performance</h1>
-        <div className="card-container">
-          {items.map((text, index) => (
-            <div key={index} className="glass-card">
-              <p className="card-text">{text}</p>
-            </div>
-          ))}
+    <section id="Performance">
+      <section className="performance" id="performance">
+      <h1 className="performance-heading">My Performance Highlights</h1>
+      <div className="performance-container">
+        <div className="performance-box">
+          <h2>🏀 Sports</h2>
+          <p>
+            Sagsanbumbug 1jil 4sar togloson.Surguuliin sagsnii temtseend angiaraa orod husuulsan
+          </p>
+        </div>
+        <div className="performance-box">
+          <h2>📚 Academics</h2>
+          <p>
+            Dundaj dun 93, mathematic,angli helnii olimpiada belden oroltsdog.Uurtuu biy daan surah chadvar,hurdan surah,tuushtai baidal
+            zergiig surgasan.
+          </p>
+        </div>
+        <div className="performance-box">
+          <h2>🎸 Creative Arts</h2>
+          <p>
+            Chuluut tsagaara hayada guitar togloh durtai,odoo tuguldur huur surj ehelj baigaa,udahgui sain surna.
+          </p>
         </div>
       </div>
     </section>
+    </section>
   );
-};
+}
 
 export default Performance;
-
-

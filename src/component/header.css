@@ -39,7 +39,7 @@
   left: 0px;
 }
 .nav a:nth-child(2):hover~span{
-  left: 85px;
+  left: 80px;
 }
 .nav a:nth-child(3):hover~span{
   left: 190px;
